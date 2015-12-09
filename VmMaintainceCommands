@@ -1,0 +1,4 @@
+swift-ring-builder object.builder set_weight d4 0
+swift-ring-builder object.builder set_weight d5 0
+swift-ring-builder object.builder set_weight d15 0
+swift-ring-builder account.builder rebalance

@@ -1,0 +1,21 @@
+"Dec 09, 2015 1:32:03 AM sample.Request.ReqGenerator$RequestThread run"
+"INFO: Total req: 1, average request time: 8445 ms, overhead: 0 ms, inteval: 8445 ms"
+"Dec 09, 2015 1:32:03 AM sample.Request.ReqGenerator$RequestThread run"
+"INFO: Total req: 1, average request time: 8436 ms, overhead: 0 ms, inteval: 8436 ms"
+"Dec 09, 2015 1:32:03 AM sample.Request.ReqGenerator$RequestThread run"
+"INFO: Total req: 1, average request time: 8479 ms, overhead: 0 ms, inteval: 8479 ms"
+Error while reading
+"Dec 09, 2015 1:32:03 AM sample.Request.ReqGenerator$RequestThread run"
+"INFO: Total req: 1, average request time: 8509 ms, overhead: 0 ms, inteval: 8509 ms"
+Error while reading
+"Dec 09, 2015 1:32:04 AM sample.Request.ReqGenerator$RequestThread run"
+"INFO: Total req: 1, average request time: 9020 ms, overhead: 2 ms, inteval: 9022 ms"
+Error while reading
+"Dec 09, 2015 1:32:04 AM sample.Request.ReqGenerator$RequestThread run"
+"INFO: Total req: 2, average request time: 4909 ms, overhead: 0 ms, inteval: 4913 ms"
+Error while reading
+"Dec 09, 2015 1:32:05 AM sample.Request.ReqGenerator$RequestThread run"
+"INFO: Total req: 2, average request time: 4986 ms, overhead: 0 ms, inteval: 4987 ms"
+Error while writing
+"Dec 09, 2015 1:32:30 AM sample.Request.ReqGenerator$RequestThread run"
+"INFO: Total req: 1, average request time: 35804 ms, overhead: 0 ms, inteval: 35804 ms"

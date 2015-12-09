@@ -1,0 +1,7 @@
+#!/bin/bash
+
+for i in {1..16}
+do
+	echo storageNode$i
+	ssh swift@storageNode$i "sudo chmod 777 /etc/swift; sudo scp swift@proxyNode:/etc/swift/*.gz /etc/swift; exit"
+done

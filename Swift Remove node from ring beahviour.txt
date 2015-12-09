@@ -1,0 +1,29 @@
+Previous
+
+Server:Port Device	10.176.128.79:6000 sdb1
+Server:Port Device	10.176.128.83:6000 sdb1
+Server:Port Device	10.176.128.71:6000 sdb1
+Server:Port Device	10.176.128.86:6000 sdb1	 [Handoff]
+Server:Port Device	10.176.128.81:6000 sdb1	 [Handoff]
+Server:Port Device	10.176.128.78:6000 sdb1	 [Handoff]
+
+
+
+rebalance
+Server:Port Device	10.176.128.77:6000 sdb1
+Server:Port Device	10.176.128.83:6000 sdb1
+Server:Port Device	10.176.128.71:6000 sdb1
+Server:Port Device	10.176.128.86:6000 sdb1	 [Handoff]
+Server:Port Device	10.176.128.81:6000 sdb1	 [Handoff]
+Server:Port Device	10.176.128.78:6000 sdb1	 [Handoff]
+
+
+Time after rebalancing and copying gz files to all storage nodes
+19:08:52
+
+---------NO FILE ON 77
+swift@proxyNode:/etc/swift$ ssh 10.176.128.77 "ls -lah ${DEVICE:-/srv/node}/sdb1/objects/128/8b6/202f8d585b2afcfefde0598cf85068b6/"
+swift@10.176.128.77's password: 
+ls: cannot access /srv/node/sdb1/objects/128/8b6/202f8d585b2afcfefde0598cf85068b6/: No such file or directory
+
+-----WAITING FOR THE FILE TO BE ON 77
